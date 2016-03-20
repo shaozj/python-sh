@@ -22,4 +22,4 @@ if __name__ == "__main__":
 	for name, count in names.iteritems():
 		sys.stdout.write("%d\t%s\n" % (count, name))
 
-	os.system('git status')
+	# os.system('git status')
